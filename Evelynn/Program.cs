@@ -99,6 +99,7 @@ namespace Evelynn
             Config.SubMenu("Drawings")
                 .AddItem(
                     new MenuItem("RRange", "R range").SetValue(new Circle(false, Color.FromArgb(255, 255, 255, 255))));
+            Config.AddSubMenu(new Menu("Evelyn By DavidNoob", "noobdavid1992"));
 
             Config.AddToMainMenu();
 
